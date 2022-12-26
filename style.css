@@ -6,6 +6,7 @@ h2{
 }
 body{
     margin: 0;
+   
 }
 
 h3{
@@ -18,7 +19,7 @@ span{
 
 .half-weith{
     display: flex;
-    padding: 10px;
+    padding: 50px;
     text-align: justify;
 }
 
@@ -31,11 +32,18 @@ section{
     width: 80%;
    
 }
+#well-image{
+   padding-left: 80px;
+}
 
 .weith-text{
     width: 40%;
-    margin-right: 10px;
-    padding: 10px;
+    padding: 20px;
+}
+#experiences{
+    padding: 40px;
+    
+
 }
 
 #section1-bac-image{
@@ -95,4 +103,22 @@ footer p{
     width: 56%;
     font-style: oblique;
     margin-bottom: 80px;
+}
+.here-me-button{
+    text-decoration: none;
+    background-image:linear-gradient(orange,yellow) ;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 700;
+    color: black;
+    margin-top: 20px;
+}
+.downlod-button{
+    text-decoration: none;
+    background-image:linear-gradient(rgb(223, 100, 111),rgb(69, 196, 69)) ;
+    padding: 10px 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    color: blanchedalmond;
+    
 }
