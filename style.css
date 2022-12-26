@@ -1,0 +1,98 @@
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+body{
+    margin: 0;
+}
+
+h3{
+    color: rgb(130, 50, 205);
+}
+
+span{
+    color: orange;
+}
+
+.half-weith{
+    display: flex;
+    padding: 10px;
+    text-align: justify;
+}
+
+section{
+    margin-bottom: 100px;
+    
+}
+
+.weith-images{
+    width: 80%;
+   
+}
+
+.weith-text{
+    width: 40%;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+#section1-bac-image{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat ;
+    
+}
+
+#section2-bac-image{
+
+    background-image: url(images/dream-bg.png);
+    background-position:left ;
+    background-repeat: no-repeat ;
+    background-position: right;
+
+}
+
+#section3-bac-image{
+
+    background-image: url(images/exp-bg.png);
+    background-position:left ;
+    background-repeat: no-repeat ;
+}
+
+.shadow{
+
+    box-shadow: 10px 10px 40px rgb(163, 223, 163);
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    border-radius: 10px;
+    border-left:7px solid;  
+
+}
+
+#shado-full{
+
+    border: left 7px solid;
+    border-image: linear-gradient(rgb(211, 78, 78),rgb(83, 83, 199));
+    border-image-slice: 1;
+}
+
+#shado-baby{
+    
+    border: left 7px solid;
+    border-image: linear-gradient(rgb(107, 78, 211),rgb(116, 29, 77));
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+    color: blue;
+    box-shadow: 5px 5px 30px blue;
+    margin-left: 22%;
+    margin-right: 22%;
+    width: 56%;
+    font-style: oblique;
+    margin-bottom: 80px;
+}
